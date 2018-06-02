@@ -1,0 +1,142 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url ('https://fonts.googleapis.com/css?family=Poiret+One|Quicksand');
+
+body{ background: url(BG.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+background-size: cover;
+font-family: 'Poiret One', cursive; color: white;}
+/*h1	{color: rgb(38, 38, 38); font-family: 'Quicksand', sans-serif; font-size:55px; text-align: right; background-color:red;}*/
+h2 		{color:rgb(38,38,38); font-family: 'Poiret One', cursive; font-size:35px;}
+h3 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
+/*p 		{color: rgb(77, 0, 0); font-family: 'Poiret One', cursive; font-size:15px;}*/
+nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
+img 	{display: block; margin: auto;}
+
+
+
+div.slogan{
+	font-family: 'Quicksand', sans-serif;
+	font-size:55px;
+	text-align: right;
+	position: fixed;
+	color: black;
+    bottom: 300px;
+    right: 60px;
+	width: 340px;
+	height: 65px;
+    background-color:rgb(223, 235, 247);
+	padding: 0.5%;
+	opacity: 0.4%;
+	text-shadow: 1px 1px rgb(90,90,90);
+	
+}
+
+div.slogan2{
+	font-family: 'Quicksand', sans-serif;
+	font-size:55px;
+	text-align: right;
+	position: fixed;
+	color: black;
+    bottom: 220px;
+    right: 60px;
+	width: 40px;
+	height: 65px;
+    background-color:rgb(223, 235, 247);
+	padding: 0.5%;
+	opacity: 0.4%;
+	 text-shadow: 1px 1px rgb(90,90,90);
+		
+}
+
+
+div.subtekst h3{
+	font-family: 'Quicksand', sans-serif;
+	font-size:15px;
+	text-align: right;
+	position: fixed;
+	color: white;
+    bottom: 50px;
+    right: 60px;
+	width: 240px;
+	height: 130px;
+    background-color:none;
+	padding: 0.5%;
+	opacity: 1%;
+	
+	
+}
+
+div.logo img {
+	position: fixed;
+	bottom: 400px;
+	right: 73%;
+
+    height: 17%;
+
+	opacity: 0.4%;
+	
+}
+
+
+div.fblogo img {
+	position: fixed;
+	bottom: 500px;
+	right: 103px;
+ width: 3%;
+	opacity: 0.4%;
+	
+}
+div.iglogo img {
+	position: fixed;
+	bottom: 500px;
+	right: 63px;
+ width: 3%;
+	opacity: 0.4%;
+	
+}
+
+div.priv {
+	font-family: 'Poiret One', cursive; 
+	font-size:15px;
+	color: rgb(200, 200, 200); 
+	text-align: left;
+position: fixed;
+    bottom: 10px;
+    right: 700;
+    width: 300px;
+
+}
+
+/* Over het menu*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a, .dropdown, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: grey;
+}
+li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
+
