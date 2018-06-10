@@ -7,16 +7,19 @@ body{
 background-repeat: no-repeat; 
 background-position: left top; 
 background-size: 50px 10px, cover;
-background-image: url(LINKSBG.gif); 
+/*background-image: url(LINKSBG.gif); */
 
 
 font-family: 'Poiret One', cursive; color: grey;}
 /*h1	{color: rgb(38, 38, 38); font-family: 'Quicksand', sans-serif; font-size:55px; text-align: right; background-color:red;}*/
-h2 		{color:rgb(38,38,38); font-family: 'Poiret One', cursive; font-size:35px;}
+h2 		{
+	color:white; font-family: 'Poiret One', cursive; font-size:35px;
+
+	}
 h3 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
 /*p 		{color: rgb(77, 0, 0); font-family: 'Poiret One', cursive; font-size:15px;}*/
 nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
-img 	{display: block; margin: auto;}
+img 	{display: block; margin: auto; }
 
 
 div.fblogo img {
@@ -24,7 +27,8 @@ div.fblogo img {
 	bottom: 500px;
 	right: 103px;
  width: 3%;
-	opacity: 0.4%;
+
+	z-index: 1;
 	
 }
 div.iglogo img {
@@ -33,9 +37,41 @@ div.iglogo img {
 	right: 63px;
  width: 3%;
 	opacity: 0.4%;
+		z-index: 1;
 	
 }
 
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+		z-index: -1;
+		
+}
+.header{filter: opacity(50%);}
+
+.text-block2 {
+    position: absolute;
+    bottom: 1px;
+  left: 16px;
+
+
+}
+
+.tekst {left: 16px;}
+
+.text-block {
+    position: absolute;
+    bottom: 140px;
+    left: 16px;
+	 background-color : #333;
+    padding-left: 10px;
+    padding-right: 10px;
+	padding-top: 0.01%;
+height: 60px;
+box-shadow: 1px 1px grey;
+ line-height: 0.1;
+}
 
 
 div.priv {
@@ -58,6 +94,7 @@ ul {
     padding: 0;
     overflow: auto;
     background-color: #333;
+
 }
 
 li {
