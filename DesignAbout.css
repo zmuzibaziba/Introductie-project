@@ -26,8 +26,8 @@ img 	{display: block; margin: auto; }
 }
 
 div.fblogo img {
-	position: fixed;
-	Top: 150px;
+	position: absolute;
+	Top: 120px;
 	right: 103px;
  width: 3%;
 
@@ -35,8 +35,8 @@ div.fblogo img {
 	
 }
 div.iglogo img {
-	position: fixed;
-	Top: 150px;
+	position: absolute;
+	Top: 120px;
 	right: 63px;
  width: 3%;
 	opacity: 0.4%;
