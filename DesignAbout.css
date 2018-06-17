@@ -30,21 +30,21 @@ a {
 }
 
 div.fblogo img {
-	position: fixed;
-	Top: 150px;
+	position: absolute;
+	Top: 120px;
 	right: 103px;
- width: 3%;
+	width: 3%;
 
 	z-index: 1;
 	
 }
 div.iglogo img {
-	position: fixed;
-	Top: 150px;
+	position: absolute;
+	Top: 120px;
 	right: 63px;
- width: 3%;
+	width: 3%;
 	opacity: 0.4%;
-		z-index: 1;
+	z-index: 1;
 	
 }
 
