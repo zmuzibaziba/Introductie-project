@@ -21,10 +21,13 @@ h3 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;
 nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
 img 	{display: block; margin: auto; }
 
+.navbar-navbar-inverse {
+	position: fixed;
+}
 
 div.fblogo img {
 	position: fixed;
-	bottom: 500px;
+	Top: 150px;
 	right: 103px;
  width: 3%;
 
@@ -33,7 +36,7 @@ div.fblogo img {
 }
 div.iglogo img {
 	position: fixed;
-	bottom: 500px;
+	Top: 150px;
 	right: 63px;
  width: 3%;
 	opacity: 0.4%;
@@ -116,4 +119,70 @@ li a:hover {
     background-color: grey;
 }
 li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
+
+
+
+/* Try It */
+
+
+.opgavens {
+	height: 400px;
+	margin-left: 16px;
+  display:block;
+  content:"";
+  clear:both;
+	
+}
+
+.opgavens a {
+	text-decoration: none;
+}
+.opgaven-block {
+	width: 400px;
+	height: 300px; 	
+	margin: 32px 32px 10px 32px;
+	padding: 0px;
+	background-color: rgb(242,242,242);
+	color: black;
+	display: inline-block;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.opgaven-block img {
+height: 130px; width: 100%; object-fit: cover;
+}
+
+.Vragen {
+	width: 1000px;
+	Height: 100%;
+	margin: 0 auto;
+	margin-top: 32px;
+	background-color: rgb(242,242,242);	
+	color: black;
+	font-size: 18px;
+}
+
+.Vragen h2{
+	margin: 0px;
+	Margin-top: 16px;
+	Margin-bottom: 16px;
+	padding: 0px;
+	color: Black;
+	text-align: center;
+}
+
+.Vragen p {
+	color: black;
+	font-size: 18px;	
+	margin: 0px;
+	margin-left: 16px;
+}
+
+#voorbeeldopgave1 {
+	margin-right: 16px;
+	width:200px; 
+	height: 150px; 
+	float: right;
+	z-index: -2;
+}
 

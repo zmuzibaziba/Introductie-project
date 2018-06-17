@@ -1,0 +1,171 @@
+<!doctype html> 
+<html>
+<head>
+
+<link href="https://fonts.googleapis.com/css?family=Poiret+One|Quicksand" rel="stylesheet">
+<link href= "DesignAbout.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript">
+    function toggle_visibility(id) {
+       var e = document.getElementById(id); 	  
+		e.scrollTop = e.scrollHeight;
+       if(e.style.display == 'block')
+          e.style.display = 'none';
+       else
+          e.style.display = 'block';
+    }
+</script>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+<title>Uitdagingen</title>
+</head>
+
+<body>
+<nav class="navbar navbar-inverse">
+    <ul class="nav navbar-nav">
+  <li><a href="HOME.html"><i class= "active" "fa fa-home" aria-hidden="true"></i> Home</a></li>
+  <li><a href="STUD.html"><i class="fa fa-television" aria-hidden="true"></i> Studies & banen</a></li>
+  <li><a href="VERH.html"><i class="fa fa-television" aria-hidden="true"></i> Verhalen</a></li>
+  <li><a href="STAT.html"><i class="fa fa-television" aria-hidden="true"></i> Ontdek</a></li>
+  <li><a href="TUTO.html"><i class="fa fa-television" aria-hidden="true"></i> Try IT</a></li>
+  <li><a href="LINK.html"><i class="fa fa-television" aria-hidden="true"></i> Links</a></li>
+  <li><a href="ABOU.html"><i class="fa fa-television" aria-hidden="true"></i> Over ons</a></li>
+  <li><a href="FAQ.html"><i class="fa fa-file" aria-hidden="true"></i>FAQ</a></li>
+    </ul>
+  </nav>
+
+<div class ="fblogo">
+<img src="FBLOGO.png" alt= "facebook" a href="facebook.com">
+</div>
+
+<div class ="iglogo">
+<img src="IGLOGO.png" alt= "instagram">
+</div>
+
+
+
+<div class="container">
+<div class="header">
+  <img src="Uitdagingen-site.png" alt="forum" style="width:100%; height: 300px; opacity: 50%;">
+  </div>
+  <div class="text-block"> 
+	<h2>Uitdagingen</h2>
+	</div>
+	<div class="text-block2">
+	<h3> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</h3>
+	</div>
+</div>
+
+
+
+<div class="Vragen">
+	<h2>Vraag 1: Scanner Codering</h2>
+	<p>Twee scanners coderen een afbeelding door de pixels ervan naar een speciale code te vertalen. Deze code geeft telkens het aantal opeenvolgende pixels van een bepaalde kleur (wit/zwart), gevolgd door het aantal opeenvolgende pixels van de andere kleur, en telkens zo verder. 
+	De scanner begint links boven, werkt de eerste rij pixels af van links naar rechts, daarna de tweede, ... tot hij uiteindelijk rechts onderaan belandt.</br>
+	</br>
+	De twee scanners verschillen in hoe ze omgaan met het einde van een rij:</br>
+
+    - Scanner A begint bij elke rij opnieuw te coderen</br>
+    - Scanner B loopt op het einde van de rij verder naar de volgende rij alsof alle pixels nog in dezelfde rij staan.</br>
+	</p> </br>
+	<p style="float:left;">Een voorbeeld: de prent die we hier rechts tonen, zou op de volgende manier gecodeerd worden: </br>
+	</br>
+    Scanner A: 3, 1, 1, 1, 2, 4 (3 wit, 1 zwart, nieuwe rij, 1 zwart, 1 wit, 2 zwart, nieuwe rij, 4 zwart)</br>
+    Scanner B: 3, 2, 1, 6 (3 wit, 2 zwart, 1 wit, 6 zwart).</br> </br></br>
+	</p>	
+	<img id="voorbeeldopgave1" src="VoorbeeldOpgave1.png" alt="Voorbeeld opgave">
+	
+	<p style="font-size: 24px;">Vraag:</p> </br>
+	<p>	Welk van de volgende prenten wordt door beide scanners op dezelfde manier gecodeerd?</p>
+	
+	</br>
+	<img src="Uitdaging1.png" alt="Uitdaging1">
+	</br>
+	
+	<a href="#" onclick="toggle_visibility('uitdaging1');" style="font-size: 24px; margin-left:16px;">Antwoord</a> </br></br>
+		<div id="uitdaging1" style="display:none; margin-left:16px;">
+			Onderste</br>
+			Toelichting: Dit is het enige patroon waarbij de kleuren van de linkerblokjes anders zijn dan het rechterblokje in de rij ervoor.</br></br>
+		</div>
+	
+
+</div>
+
+<div class="Vragen" style="background-color: rgb(189,214,238);">
+	<h2>Vraag 2: Dief Opsporen</h2>
+	<p>O, nee. De beroemde "Blauwe Diamant" is vandaag gestolen uit het museum. Een dief heeft de blauwe diamant verwisseld door een goedkope nep-diamant met een groene kleur.</br>
+		<img src="Uitdaging2.png" alt="Uitdaging 2">
+	</br>
+	Vandaag waren er 2000 mensen die de tentoonstelling met de diamant hebben bezocht. Ze gingen de kamer met de diamant een voor een binnen. 
+	Inspecteur Bevar moet de dief zien te vinden door een aantal bezoekers te ondervragen. Hij heeft een lijst van alle bezoekers in de volgorde waarin zij de kamer met de diamant hebben bezocht. 
+	Hij stelt elke persoon dezelfde vraag: "Had de diamant de kleur groen of blauw toen u hem zag?" Iedere bezoeker zal naar waarheid antwoorden behalve de dief, die zal zeggen dat de diamant al groen was.
+	</p> </br>
+
+
+	
+	<p style="font-size: 24px;">Vraag:</p> </br>
+	<p>Inpecteur Bevar is erg slim en zal een strategie gebruiken waarbij het aantal ondervraagde mensen zo gering mogelijk is.</br>
+	Welke bewering van Inpecteur Bevar is waar?</p>	
+	</br>
+	<p>1) Ik Kan garanderen dat ik de dief vind door minder dan 20 mensen te ondervragen.</br>
+	   2) 20 mensen ondervragen zal niet genoeg zijn (tenzij ik geluk heb), maar minder dan 200 mensen moet kunnen.</br>
+	   3) Dit wordt moeilijk: ik zal minstens 200 mensen moeten ondervragen en mogelijk wel 1999.</br>
+	   4) Ik kan niets beloven. Wanneer ik pech heb zal het nodig zijn om iedere bezoeker te ondervragen.</br>
+	</br>
+	
+	<a href="#" onclick="toggle_visibility('uitdaging2');" style="font-size: 24px; margin-left:16px;">Antwoord</a> </br></br>
+		<div id="uitdaging2" style="display:none; margin-left:16px;">
+			Ik Kan garanderen dat ik de dief vind door minder dan 20 mensen te ondervragen.</br>			
+			Toelichting: Je neemt telkens de helft: dus je vraagt de 50e persoon of die een groene diamant heeft gezien. 
+			Als diegene ja zegt, vraag je het de 25e persoon. Als diegene nee zegt, vraag je het de 75e persoon en zo door. 
+			Het is uiteindelijk degene die nadat een persoon zegt dat hij blauw was, zegt dat de diamant groen is.
+			</br></br>
+		</div>
+	
+
+</div>
+
+<div class="Vragen" style="background-color: rgb(254,242,204);">
+	<h2>Vraag 3: Eekhoorns</h2>
+	<p>16 eekhoorns wonen in een boom in 5 boven elkaar gelegen holen. </br></br>
+
+	   Elke dag gaan alle eekhoorns na hoeveel eekhoorns er wonen in hun eigen hol en de holen erboven en eronder.</br></br>
+
+       De volgende nacht blijft iedere eekhoorn in het hol waar hij al was, of hij verhuist naar een hol een hoger of een lager, afhankelijk waar de minste andere eekhoorns zijn. 
+	   Wanneer het aantal gelijk is blijft de eekhoorn liever in huidige hol dan dat hij naar het hol erboven gaat. Ook gaat hij liever naar het hogere hol dan naar het lagere.
+	</p> </br>
+	
+	<p style="font-size: 24px;">Voorbeeld:</p></br>
+	
+	<p>Vandaag zijn er van boven naar beneden 5, 0, 0, 4 en 7 eekhoorns in de holen, zoals in het plaatje hier beneden. 
+	Morgen zullen alle 5 eekhoorns uit het bovenste hol verhuisd zijn naar het hol eronder (0 buren is beter dan 4). 
+	De 7 eekhoorns van het onderste hol zullen een hol naar boven gaan (4 buren is beter dan 6) en de 4 eekhoorns van het op een na onderste hol zullen een hol naar boven gaan (0 buren is beter dan 3).
+    </br></br>
+	</p>	
+	
+	<img src="VoorbeeldOpgave3.png" alt="Voorbeeld opgave 3"> </br>
+	<p style="margin-left:300px;">Vandaag &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&nbsp;  Morgen</p>
+	
+	<p style="font-size: 24px;">Vraag:</p> </br>
+	<p>Hier volgt een andere situatie waarin de eekhoorns zich bevinden:</br>
+		<img src="Uitdaging3.png" alt="Uitdaging 3" style="margin-left: 16px;">
+	Na hoeveel dagen zullen alle eekhoorns in hetzelfde hol terecht zijn gekomen?</p>
+	
+	</br>
+	</br>
+	
+	<a href="#" onclick="toggle_visibility('uitdaging3');scrollToBottom('uitdaging3');" style="font-size: 24px; margin-left:16px;">Antwoord</a> </br></br>
+		<div id="uitdaging3" style="display:none; margin-left:16px;">
+			Na 3 dagen</br>
+			Toelichting: Na 1 dag is de stand van boven naar onder 0-9-0-7-0. Na 2 dagen is dit 9-0-7-0-0, en na 3 dagen is dit 0-16-0-0-0.</br></br>
+		</div>
+	
+
+</div>
+
+<a href="PRIV.html">Privacy beleid</a>
+</body>
+
+
+
+</html>
+
