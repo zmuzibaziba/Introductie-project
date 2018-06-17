@@ -19,6 +19,7 @@ img 	{display: block; margin: auto; }
 div.Priv {position: absolute; bottom: 100px;}
 body {bottom-padding-bottom: 0%;}
 
+
 .Verhaal1{
 position: absolute;
 top: 300px;
@@ -241,6 +242,16 @@ position: absolute;
 }
 
 /* Over het menu*/
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 98.75%;
+}
+
+.main {
+    margin-top: 55px;
+    padding-top: 0.01%;
+}
 
 ul {
     list-style-type: none;
@@ -267,7 +278,7 @@ li a:hover {
     background-color: #111;
 }
 .active {
-    background-color: grey;
+    background-color: #111;
 }
 li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 
