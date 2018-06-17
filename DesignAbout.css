@@ -21,13 +21,17 @@ h3 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;
 nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
 img 	{display: block; margin: auto; }
 
+a {
+	color: #111;
+}
+
 .navbar-navbar-inverse {
 	position: fixed;
 }
 
 div.fblogo img {
-	position: absolute;
-	Top: 120px;
+	position: fixed;
+	Top: 150px;
 	right: 103px;
  width: 3%;
 
@@ -35,8 +39,8 @@ div.fblogo img {
 	
 }
 div.iglogo img {
-	position: absolute;
-	Top: 120px;
+	position: fixed;
+	Top: 150px;
 	right: 63px;
  width: 3%;
 	opacity: 0.4%;
@@ -125,11 +129,12 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 
 
 .opgavens {
-	height: 400px;
-	margin-left: 16px;
+	height: 100%;
+	margin: 0px 0px 0px 16px;
   display:block;
   content:"";
   clear:both;
+  text-align:center;
 	
 }
 
@@ -137,14 +142,15 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 	text-decoration: none;
 }
 .opgaven-block {
-	width: 345px;
+	width: 350px;
 	height: 300px; 	
-	margin: 32px 32px 10px 32px;
+	margin: 32px 20px 10px 20px;
 	padding: 0px;
 	background-color: rgb(242,242,242);
 	color: black;
 	display: inline-block;
 	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+
 }
 
 .opgaven-block img {
@@ -177,9 +183,6 @@ height: 130px; width: 100%; object-fit: cover;
 	margin-left: 16px;
 }
 
-.Vragen a {
-	color: #111;
-}
 
 #voorbeeldopgave1 {
 	margin-right: 16px;
