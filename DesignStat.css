@@ -120,9 +120,25 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 
 .statistiek-blok1 {
     width: 100%;
-    height: 540px;
+    height: 450px;
     margin-top: 32px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.specialisten {
+    width: 450;
+    height: 350;
+    float: left;
+    padding-left: 100px;
+    /*border: 2px solid black;*/
+}
+
+.specialisten-tekst {
+    width: 45%;
+    float: right;
+    padding-left: 10px;
+    padding-right: 100px;
+   /*border: 2px solid black;*/
 }
 
 .statistiek-blok {
@@ -130,4 +146,9 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
     height: 45px;
     margin-top: 32px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* highlighter */
+span {
+    background-color:#F3B187;
 }
