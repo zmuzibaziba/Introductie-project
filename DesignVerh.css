@@ -29,7 +29,7 @@ top: 300px;
     background-color: 	rgb(207, 166,112);
 	padding: 0.9%;
 	 text-align: justify;
-	 z-index:20;
+	 z-index:84;
 	 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -53,7 +53,7 @@ div.verh1af img {
 	top: 330px;
 	right: 1030px;
 	width: 15%;
-	z-index: 21;
+	z-index: 85;
 		 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -67,7 +67,7 @@ top: 600px;
 	padding: 0.9%;
 	 text-align: justify;
 	 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
-z-index: 19;
+z-index: 81;
 }
 
 .Bovenvouw2{
@@ -82,7 +82,7 @@ div.verh2af img{
 	top: 610px;
 	right: 80px;
 	width: 15%;
-	z-index: 20;
+	z-index: 82;
 		 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 	
 }
@@ -104,7 +104,7 @@ top: 930px;
     background-color: 	rgb(18, 53,75);
 	padding: 0.9%;
 	 text-align: justify;
-	 z-index:17;
+	 z-index: 75;
 	 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -128,7 +128,7 @@ div.verh3af img {
 	top: 950px;
 	right: 1030px;
 	width: 14%;
-	z-index: 18;
+	z-index: 76;
 		 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -143,7 +143,7 @@ top: 1200px;
 	padding: 0.9%;
 	 text-align: justify;
 	 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
-z-index: 15;
+z-index: 70;
 }
 
 .Bovenvouw4{
@@ -158,7 +158,7 @@ div.verh4af img{
 	top: 1210px;
 	right: 80px;
 	width: 15%;
-	z-index: 16;
+	z-index: 71;
 		 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 	
 }
@@ -170,6 +170,199 @@ div.quote4 img {
 
 	
 }
+
+.Verhaal5{
+position: absolute;
+top: 1470px;
+    right: 280px;
+	width: 850px;
+	display: inline-block;
+    background-color: 	rgb(67, 51, 49);
+	padding: 0.9%;
+	 text-align: justify;
+	 z-index:64;
+	 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Bovenvouw5 {
+ position: relative;
+    left: 120px;
+   width: 730px;
+}
+
+
+div.quote5 img{
+	position: absolute;
+	top: 1470px;
+	right: 80px;
+	width: 15%;
+
+
+}
+div.verh5af img {
+	position: absolute;
+	top: 1490px;
+	right: 1030px;
+	width: 12%;
+	z-index: 65;
+		 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.Verhaal6{
+position: absolute;
+top: 1800px;
+    right: 150px;
+	width: 850px;
+	display: inline-block;
+    background-color: 	rgb(123, 131, 86);
+	padding: 0.9%;
+	 text-align: justify;
+	 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+z-index: 60;
+}
+
+.Bovenvouw6{
+	 position: relative;
+   
+   width: 730px;
+	
+}
+
+div.verh6af img{
+	position: absolute;
+	top: 1810px;
+	right: 80px;
+	width: 11%;
+	z-index: 61;
+		 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	
+}
+div.quote6 img {
+	position: absolute;
+	top: 1800px;
+	right: 1030px;
+	width: 15%;
+
+	
+}
+
+
+.Verhaal7{
+position: absolute;
+top: 2090px;
+    right: 280px;
+	width: 850px;
+	display: inline-block;
+    background-color: 	rgb(92, 120, 107);
+	padding: 0.9%;
+	 text-align: justify;
+	 z-index:56;
+	 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Bovenvouw7 {
+ position: relative;
+    left: 120px;
+   width: 730px;
+}
+
+
+div.quote7 img{
+	position: absolute;
+	top: 2090px;
+	right: 80px;
+	width: 15%;
+
+
+}
+div.verh7af img {
+	position: absolute;
+	top: 2110px;
+	right: 1030px;
+	width: 15%;
+	z-index: 57;
+		 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Verhaal8{
+position: absolute;
+top: 2400px;
+    right: 150px;
+	width: 850px;
+	display: inline-block;
+    background-color: 	rgb(130, 51, 65);
+	padding: 0.9%;
+	 text-align: justify;
+	 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+z-index: 50;
+}
+
+.Bovenvouw8{
+	 position: relative;
+   
+   width: 730px;
+	
+}
+
+div.verh8af img{
+	position: absolute;
+	top: 2450px;
+	right: 80px;
+	width: 15%;
+	z-index: 51;
+		 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+	
+}
+div.quote8 img {
+	position: absolute;
+	top: 2400px;
+	right: 1030px;
+	width: 15%;
+
+	
+}
+
+.Verhaal9{
+position: absolute;
+top: 2740px;
+    right: 280px;
+	width: 850px;
+	display: inline-block;
+    background-color: 	rgb(145, 165, 187);
+	padding: 0.9%;
+	 text-align: justify;
+	 z-index:45;
+	 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+.Bovenvouw9 {
+ position: relative;
+    left: 120px;
+   width: 730px;
+}
+
+
+div.quote9 img{
+	position: absolute;
+	top: 2740px;
+	right: 80px;
+	width: 15%;
+
+
+}
+div.verh9af img {
+	position: absolute;
+	top: 2750px;
+	right: 1030px;
+	width: 15%;
+	z-index: 46;
+		 box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+
 
 
 
@@ -246,6 +439,7 @@ position: absolute;
     position: fixed;
     top: 0px;
     width: 98.75%;
+	z-index:90;
 }
 
 .main {

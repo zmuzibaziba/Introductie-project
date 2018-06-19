@@ -4,10 +4,6 @@
 @import url ('https://fonts.googleapis.com/css?family=Poiret+One|Quicksand');
 
 body{ 
-background-repeat: no-repeat; 
-background-position: left top; 
-background-size: 50px 10px, cover;
-/*background-image: url(LINKSBG.gif); */
 
 
 font-family: 'Poiret One', cursive; color: grey;}
