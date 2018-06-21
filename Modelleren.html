@@ -20,19 +20,21 @@
 </head>
 
 <body>
-<nav class="navbar navbar-inverse">
-    <ul class="nav navbar-nav">
-  <li><a href="HOME.html"><i class= "active" "fa fa-home" aria-hidden="true"></i> Home</a></li>
-  <li><a href="STUD.html"><i class="fa fa-television" aria-hidden="true"></i> Studies & banen</a></li>
-  <li><a href="VERH.html"><i class="fa fa-television" aria-hidden="true"></i> Verhalen</a></li>
-  <li><a href="STAT.html"><i class="fa fa-television" aria-hidden="true"></i> Ontdek</a></li>
-  <li><a href="TUTO.html"><i class="fa fa-television" aria-hidden="true"></i> Try IT</a></li>
-  <li><a href="LINK.html"><i class="fa fa-television" aria-hidden="true"></i> Links</a></li>
-  <li><a href="ABOU.html"><i class="fa fa-television" aria-hidden="true"></i> Over ons</a></li>
-  <li><a href="FAQ.html"><i class="fa fa-file" aria-hidden="true"></i>FAQ</a></li>
-    </ul>
-  </nav>
 
+<nav class="navbar">
+		<ul class="nav">
+	  <li><a href="HOME.html">Home</a></li>
+	  <li><a href="STUD.html">Studies & banen</a></li>
+	  <li><a href="VERH.html">Verhalen</a></li>
+	  <li><a href="STAT.html">Ontdek</a></li>
+	  <li><a class="active" href="TUTO.html">Try IT</a></li>
+	  <li><a href="LINK.html">Links</a></li>
+	  <li><a href="ABOU.html">Over ons</a></li>
+	  <li><a href="FAQ.html">FAQ</a></li>
+		</ul>
+</nav>
+
+<div class="main">
 <div class ="fblogo">
 <img src="FBLOGO.png" alt= "facebook" a href="facebook.com">
 </div>
@@ -42,19 +44,19 @@
 </div>
 
 
-
-<div class="container">
 <div class="header">
-  <img src="modellerenheader.png" alt="forum" style="width:100%; height: 275px;">
-  </div>
-  <div class="text-block"> 
-	<h2>Modelleren</h2>
-	</div>
-	<div class="text-block2">
-	<h3> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.</h3>
+	<div class="HeaderBackground" style="Background-image: url('modellerenheader.png');">
+		<div class="text-block"> 
+			<h2>Modelleren</h2>
+		</div>
+		<div class="text-block2">
+			<h3> Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. 
+			Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem.
+			Nulla consequat massa quis enim.
+			</h3>
+		</div>
 	</div>
 </div>
-
 
 
 <div class="Vragen" style="background-color: rgb(189,214,238);">
@@ -100,7 +102,7 @@
 	
 	<a onclick="toggle_visibility('Modelleeropgave1');" style="font-size: 24px; margin-left:16px;">Antwoord</a> </br></br>
 		<div id="Modelleeropgave1" style="display:none; margin-left:16px;">
-			<img src="LearnITAntwoord.png" alt="Learn-IT Antwoord" style="width:100%; height:300px; margin: 0px;">
+			<img src="LearnITAntwoord.png" alt="Learn-IT Antwoord" style="width:100%; height:300px; margin: 0px; object-fit: cover;">
 			</br></br>
 		</div>
 	<p>Wil je verder oefenen met HTML of andere programmeertalen? Neem een kijkje op <a href="LINK.html">onze links pagina</a> voor handige websites!</p></br>
@@ -110,6 +112,7 @@
 
 
 <a href="PRIV.html">Privacy beleid</a>
+</main>
 </body>
 
 

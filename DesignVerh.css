@@ -389,38 +389,43 @@ div.iglogo img {
 	
 }
 
-.container {
-    position: relative;
-    text-align: left;
-    color: white;
-		z-index: -1;
-		
+
+.header {
+	height:270px;
+	display: inline-block;
 }
-.header{filter: opacity(50%);}
+
+.header h2{
+	opacity: (100%);
+}
 
 .text-block2 {
-    position: absolute;
-    bottom: 1px;
-  left: 16px;
-
-
+	margin-left: 16px;
+	z-index: 2;
 }
 
-.tekst {left: 16px;}
+.tekst {
+	left: 16px;
+}
 
 .text-block {
-    position: absolute;
-    bottom: 140px;
-    left: 16px;
-	 background-color : #333;
+    margin-top: 64px;
+    margin-left: 16px;
+	background-color : #333;
     padding-left: 10px;
     padding-right: 10px;
-	padding-top: 0.01%;
-height: 60px;
-box-shadow: 1px 1px grey;
- line-height: 0.1;
+	padding-top: 1px;
+	height: 60px;
+	box-shadow: 1px 1px grey;
+	line-height: 0.1;
+	z-index: 2;
+	display: inline-block;
 }
 
+.HeaderBackground {
+	background-size: cover;
+	height: 100%;
+}
 
 div.priv {
 	font-family: 'Poiret One', cursive; 

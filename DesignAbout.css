@@ -36,64 +36,74 @@ div.fblogo img {
 	position: absolute;
 	Top: 120px;
 	right: 103px;
- width: 3%;
-
+	width: 3%;
 	z-index: 1;
-	
 }
+
 div.iglogo img {
 	position: absolute;
 	Top: 120px;
 	right: 63px;
- width: 3%;
+	width: 3%;
 	opacity: 0.4%;
-		z-index: 1;
-	
+	z-index: 1;	
 }
 
 .container {
     position: relative;
     text-align: left;
     color: white;
-		z-index: -1;
-		
+	z-index: -1;
 }
-.header{filter: opacity(50%);}
+
+.header {
+	height:270px;
+	display: inline-block;
+}
+
+.header h2{
+	opacity: (100%);
+}
 
 .text-block2 {
-    position: absolute;
-    bottom: 1px;
-  	left: 16px;
-
-
+	margin-left: 16px;
+	z-index: 2;
 }
 
-.tekst {left: 16px;}
+.tekst {
+	left: 16px;
+}
 
 .text-block {
-    position: absolute;
-    bottom: 140px;
-    left: 16px;
-	 background-color : #333;
+    margin-top: 64px;
+    margin-left: 16px;
+	background-color : #333;
     padding-left: 10px;
     padding-right: 10px;
-	padding-top: 0.01%;
-height: 60px;
-box-shadow: 1px 1px grey;
- line-height: 0.1;
+	padding-top: 1px;
+	height: 60px;
+	box-shadow: 1px 1px grey;
+	line-height: 0.1;
+	z-index: 2;
+	display: inline-block;
 }
 
+
+.HeaderBackground {
+	background-size: cover;
+	height: 100%;
+	
+}
 
 div.priv {
 	font-family: 'Poiret One', cursive; 
 	font-size:15px;
 	color: rgb(200, 200, 200); 
 	text-align: left;
-position: absolute;
+	position: absolute;
     bottom: 10px;
     right: 700;
     width: 300px;
-
 }
 
 /* Over het menu*/
@@ -134,16 +144,16 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 .opgavens {
 	height: 100%;
 	margin: 0px 0px 0px 16px;
-  display:block;
-  content:"";
-  clear:both;
-  text-align:center;
-	
+	display:block;
+	content:"";
+	clear:both;
+	text-align:center;	
 }
 
 .opgavens a {
 	text-decoration: none;
 }
+
 .opgaven-block {
 	width: 350px;
 	height: 300px; 	
@@ -158,7 +168,9 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 }
 
 .opgaven-block img {
-height: 130px; width: 100%; object-fit: cover;
+	height: 130px; 
+	width: 100%; 
+	object-fit: cover;
 }
 
 .Vragen {
