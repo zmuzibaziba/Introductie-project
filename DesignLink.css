@@ -12,10 +12,10 @@ background-size: 50px 10px, cover;
 
 font-family: 'Poiret One', cursive; color: grey;}
 /*h1	{color: rgb(38, 38, 38); font-family: 'Quicksand', sans-serif; font-size:55px; text-align: right; background-color:red;}*/
-h2 		{color:white; font-family: 'Poiret One', cursive; font-size:35px;}
+h2 		{color:black; font-family: 'Poiret One', cursive; font-size:35px;}
 h3 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
 h4      {color: rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:20px}
-p 		{color: rgb(77, 0, 0); font-family: 'Poiret One', cursive; font-size:15px;}
+p 		{color: rgb(77, 0, 0); font-family: 'Poiret One', cursive; font-size:15px; font-display: justify;}
 nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
 img 	{display: block; margin: auto; }
 
@@ -130,58 +130,16 @@ li a:hover {
 
 li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 
-/* Statistieken */
+.text{
+    padding-left: 75px;
+    padding-right: 75px;
+}
 
-/* Blokken*/
-.statistiek-blok {
+/*.link{
     width: 100%;
-    height: 450px;
+    height: 250px;
     margin-top: 32px;
     box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
-}
-
-.statistiek-blok1 {
-    width: 100%;
-    height: 500px;
-    margin-top: 32px;
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
-}
-
-/* Linkerblok in blok */
-.specialisten {
-    width: 450;
-    height: 350;
-    float: left;
-    padding-left: 200px;
-}
-
-/* Rechterblok in blok*/
-.specialisten-tekst {
-    width: 330px;
-	height: 200px;
-    float: right;
-	padding-top: 60px;
-    padding-right: 200px;
-}
-
-.specialisten-tekst1 {
-    width: 330px;
-	height: 200px;
-    float: right;
-	padding-top: 20px;
-    padding-right: 200px;
-}
-
-.specialisten-tekst2 {
-    width: 330px;
-	height: 200px;
-    float: right;
-	padding-top: 90px;
-    padding-right: 200px;
-}
-
-/* highlighter */
-span {
-    background-color:#F3B187;
-    font-weight: bold;
-}
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
