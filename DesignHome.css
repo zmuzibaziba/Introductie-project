@@ -92,20 +92,21 @@ div.logo img {
 
 div.fblogo img {
 	position: fixed;
-	bottom: 500px;
+	Top: 10px;
 	right: 103px;
  width: 3%;
-	opacity: 0.4%;
+	z-index: 120;
 	
 }
 div.iglogo img {
 	position: fixed;
-	bottom: 500px;
+	Top: 10px;
 	right: 63px;
  width: 3%;
 	opacity: 0.4%;
-	
+z-index: 120;
 }
+
 
 div.priv {
 	font-family: 'Poiret One', cursive; 

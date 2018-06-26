@@ -36,22 +36,22 @@ a {
 }
 
 div.fblogo img {
-	position: absolute;
-	Top: 120px;
+	position: fixed;
+	Top: 10px;
 	right: 103px;
-    width: 3%;
-	z-index: 1;
+ width: 3%;
+	z-index: 120;
 	
 }
 div.iglogo img {
-	position: absolute;
-	Top: 120px;
+	position: fixed;
+	Top: 10px;
 	right: 63px;
-    width: 3%;
+ width: 3%;
 	opacity: 0.4%;
-	z-index: 1;
-	
+z-index: 120;
 }
+
 
 
 .header {
