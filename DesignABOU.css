@@ -2,13 +2,14 @@
 @import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 @import url ('https://fonts.googleapis.com/css?family=Poiret+One|Quicksand');
+@import url ('https://fonts.googleapis.com/css?family=Source+Code+Pro');
 
-body	{ font-family: 'Poiret One', cursive; color: grey;}
-h2 		{color:white; font-family: 'Poiret One', cursive; font-size:35px;	}
-h3 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
+body	{font-family: 'Quicksand', cursive; color: grey;}
+h2 		{color:white; font-family: 'Source Code Pro', monospace; font-size:35px;	}
+h3 		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px;  font-weight: lighter;}
 nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
 img 	{display: block; margin: auto; }
-h5		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px; background-color: rgb(223, 235, 247);  margin-bottom:-5px;}
+h5		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px; background-color: rgb(223, 235, 247);  margin-bottom:-5px; font-weight: lighter;}
 
 div.GroepFoto img 
 {
@@ -107,6 +108,7 @@ z-index: 120;
 	line-height: 0.1;
 	z-index: 2;
 	display: inline-block;
+	
 }
 
 

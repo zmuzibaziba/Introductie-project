@@ -3,21 +3,12 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 @import url('https://fonts.googleapis.com/css?family=Poiret+One|Quicksand');
 
-body{ 
-background-repeat: no-repeat; 
-background-position: left top; 
-background-size: 50px 10px, cover;
-/*background-image: url(LINKSBG.gif); */
-
-
-font-family: 'Poiret One', cursive; color: grey;}
-/*h1	{color: rgb(38, 38, 38); font-family: 'Quicksand', sans-serif; font-size:55px; text-align: right; background-color:red;}*/
-h2 		{color:white; font-family: 'Poiret One', cursive; font-size:35px;}
-h3 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
-h4      {color: rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:20px; text-align: center;}
-p 		{color: rgb(77, 0, 0); font-family: 'Poiret One', cursive; font-size:15px;}
+body	{font-family: 'Quicksand', cursive; color: grey;}
+h2 		{color:white; font-family: 'Source Code Pro', monospace; font-size:35px;	}
+h3 		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px;  font-weight: lighter;}
 nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
 img 	{display: block; margin: auto; }
+h5		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px; background-color: rgb(223, 235, 247);  margin-bottom:-5px; font-weight: lighter;}
 
 a {
 	color: #111;
@@ -157,15 +148,15 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 
 /* Rechterblok in blok*/
 .specialisten-tekst {
-    width: 330px;
+    width: 370px;
 	height: 200px;
     float: right;
-	padding-top: 60px;
+	padding-top: 40px;
     padding-right: 200px;
 }
 
 .specialisten-tekst1 {
-    width: 330px;
+    width: 370px;
 	height: 200px;
     float: right;
 	padding-top: 20px;
@@ -173,10 +164,10 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 }
 
 .specialisten-tekst2 {
-    width: 330px;
+    width: 370px;
 	height: 200px;
     float: right;
-	padding-top: 90px;
+	padding-top: 60px;
     padding-right: 200px;
 }
 

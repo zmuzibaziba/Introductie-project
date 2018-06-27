@@ -3,22 +3,26 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 @import url ('https://fonts.googleapis.com/css?family=Poiret+One|Quicksand');
 
-body{ 
-background-repeat: no-repeat; 
-background-position: left top; 
-background-size: 50px 10px, cover;
-
-
-font-family: 'Poiret One', cursive; color: grey;}
-h2 		{ color:white; font-family: 'Poiret One', cursive; font-size:35px;}
-h3 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
-h4		{color:rgb(255, 255, 255); font-family: 'Poiret One', cursive; font-size:25px;}
-p 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:15px;}
+body	{font-family: 'Quicksand', cursive; color: grey;}
+h2 		{color:white; font-family: 'Source Code Pro', monospace; font-size:35px;	}
+h3 		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px;  font-weight: lighter;}
 nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
 img 	{display: block; margin: auto; }
-div.Priv {position: absolute; bottom: 100px;}
-body {bottom-padding-bottom: 0%;}
+h5		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px; background-color: rgb(223, 235, 247);  margin-bottom:-5px; font-weight: lighter;}
 
+
+div.priv {
+
+	font-size:15px;
+	color: rgb(200, 200, 200); 
+
+		position: absolute;
+	top: 3450px;
+
+	opacity: 0.4%;
+z-index: 120;
+
+}
 
 .Verhaal1{
 position: absolute;

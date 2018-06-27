@@ -3,17 +3,13 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
 @import url ('https://fonts.googleapis.com/css?family=Poiret+One|Quicksand');
 
-body{ 
+body	{font-family: 'Quicksand', cursive; color: grey;}
+h2 		{color:white; font-family: 'Source Code Pro', monospace; font-size:35px;	}
+h3 		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px;  font-weight: lighter;}
+nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
+img 	{display: block; margin: auto; }
+h5		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px; background-color: rgb(223, 235, 247);  margin-bottom:-5px; font-weight: lighter;}
 
-
-font-family: 'Poiret One', cursive; color: grey;}
-/*h1	{color: rgb(38, 38, 38); font-family: 'Quicksand', sans-serif; font-size:55px; text-align: right; background-color:red;}*/
-h2 		{
-	color:white; font-family: 'Poiret One', cursive; font-size:35px;
-
-	}
-h3 		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
-/*p 		{color: rgb(77, 0, 0); font-family: 'Poiret One', cursive; font-size:15px;}*/
 nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
 img 	{display: block; margin: auto; }
 
@@ -182,6 +178,7 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 	background-color: rgb(242,242,242);	
 	color: black;
 	font-size: 18px;
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
 }
 
 .Vragen h2{
