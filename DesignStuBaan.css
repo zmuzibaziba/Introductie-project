@@ -1,0 +1,280 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Grand+Hotel');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300');
+@import url ('https://fonts.googleapis.com/css?family=Poiret+One|Quicksand');
+
+body	{font-family: 'Quicksand', cursive; color: grey;}
+h2 		{color:white; font-family: 'Source Code Pro', monospace; font-size:35px;	}
+h3 		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px;  font-weight: lighter;}
+nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
+img 	{display: block; margin: auto; }
+h5		{color:rgb(38, 38, 38); font-family: 'Source Code Pro', monospace; font-size:25px; background-color: rgb(223, 235, 247);  margin-bottom:-5px; font-weight: lighter;}
+
+nav		{color:rgb(38, 38, 38); font-family: 'Poiret One', cursive; font-size:25px;}
+img 	{display: block; margin: auto; }
+
+a {
+	color: #111;
+}
+
+.navbar {
+    position: fixed;
+    top: 0px;
+    width: 98.75%;
+}
+
+.main {
+    margin-top: 55px;
+    padding-top: 0.01%;
+}
+
+div.fblogo img {
+	position: fixed;
+	Top: 10px;
+	right: 103px;
+ width: 3%;
+	z-index: 120;
+	
+}
+div.iglogo img {
+	position: fixed;
+	Top: 10px;
+	right: 63px;
+ width: 3%;
+	opacity: 0.4%;
+z-index: 120;
+}
+
+
+.container {
+    position: relative;
+    text-align: left;
+    color: white;
+	z-index: -1;
+}
+
+.header {
+	height:270px;
+	display: inline-block;
+}
+
+.header h2{
+	opacity: (100%);
+}
+
+.text-block2 {
+	margin-left: 16px;
+	z-index: 2;
+}
+
+.tekst {
+	left: 16px;
+}
+
+.text-block {
+    margin-top: 64px;
+    margin-left: 16px;
+	background-color : #333;
+    padding-left: 10px;
+    padding-right: 10px;
+	padding-top: 1px;
+	height: 60px;
+	box-shadow: 1px 1px grey;
+	line-height: 0.1;
+	z-index: 2;
+	display: inline-block;
+}
+
+
+.HeaderBackground {
+	background-size: cover;
+	height: 100%;
+	
+}
+
+div.priv {
+	font-family: 'Poiret One', cursive; 
+	font-size:15px;
+	color: rgb(200, 200, 200); 
+	text-align: left;
+	position: absolute;
+    bottom: 10px;
+    right: 700;
+    width: 300px;
+}
+
+/* Over het menu*/
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    background-color: #333;
+
+}
+
+li {
+    float: left;
+}
+
+li a, .dropdown, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+.active {
+    background-color: #111;
+}
+li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
+ 
+ 
+ /* Studies en banen */
+ 
+ .content {
+	height: 100%;
+	margin: 0 auto;
+	display:block;
+	content:"";
+	clear:both;
+	text-align:center;	
+	color: black;
+	font-size: 20px;
+ }
+ 
+ table, th, td {
+	 height: 65px;
+	 border: 1px solid white;
+	 border-collapse: collapse;
+	 text-align: left;
+	 padding: 0;
+	 padding-left: 4px;
+ }
+ 
+ table {
+	width: 600px;
+	margin: 32px;
+	display: inline-table;
+	height: 300px; 
+	box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgba(0, 0, 0, 0.19);
+ }
+ 
+ th {
+	height: 75px;
+ }
+ 
+ tr {
+	 background-color: rgb(216,216,216);
+	 height: 75px;
+ }
+
+ td {
+	 75px;
+ }
+ 
+ #Picture {
+	 width: 125px;
+ }
+  
+ #Information {
+	 background-color:white;
+	 vertical-align: top;
+	 font-size: 15px;
+	 width: 300px;
+ }
+ 
+ 
+  /* code per tabel*/
+  
+  
+.table1 #Picture {
+	 background-image: url(./StudyPictures/Informatica.png);
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+.table1 th {
+	 background-color: rgb(143, 213, 169);
+ }
+
+ 
+ 
+.table2 #Picture {
+	 background-image: url(./StudyPictures/Informatiekunde.png);
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+.table2 th {
+	 background-color: rgb(241, 201, 148);
+ }
+ 
+ 
+ 
+ 
+ .table3 #Picture {
+	 background-image: url(./StudyPictures/Informatica.png);
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+.table3 th {
+	 background-color: black;
+	 color: white;
+ }
+
+ 
+ 
+
+ 
+ .table4 #Picture {
+	 background-image: url(./StudyPictures/Informatica.png);
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+.table4 th {
+	 background-color: rgb(254, 156, 156);
+ } 
+ 
+ 
+ 
+ .table5 #Picture {
+	 background-image: url(./StudyPictures/Informatica.png);
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+.table5 th {
+	 background-color: rgb(222, 234, 246);
+ }
+  
+ 
+ 
+ .table6 #Picture {
+	 background-image: url(./StudyPictures/Informatica.png);
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+.table6 th {
+	 background-color: rgb(143, 213, 169);
+ }
+  
+ 
+ 
+ .table7 #Picture {
+	 background-image: url(./StudyPictures/Informatica.png);
+	 margin: 0;
+	 padding: 0;
+ }
+ 
+.table7 th {
+	 background-color: rgb(222, 234, 246);
+ }
