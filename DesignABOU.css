@@ -27,7 +27,7 @@ div.tekstA
 	width: 75%;
 		left: 11%;
 		color: black;
-		z-index: 1;
+		z-index: -1;
 }
 
 
