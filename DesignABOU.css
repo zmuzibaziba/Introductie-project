@@ -25,9 +25,8 @@ div.tekstA
 	margin-top: 3%;
 	position: relative;
 	width: 75%;
-		left: 11%;
-		color: black;
-		z-index: -1;
+	left: 11%;
+	color: black;
 }
 
 
@@ -48,6 +47,7 @@ a {
     position: fixed;
     top: 0px;
     width: 98.75%;
+	z-index:1;
 }
 
 .main {
@@ -60,7 +60,7 @@ div.fblogo img {
 	Top: 10px;
 	right: 103px;
  width: 3%;
-	z-index: 120;
+	z-index: 1;
 	
 }
 div.iglogo img {
@@ -69,7 +69,7 @@ div.iglogo img {
 	right: 63px;
  width: 3%;
 	opacity: 0.4%;
-z-index: 120;
+z-index: 1;
 }
 
 
