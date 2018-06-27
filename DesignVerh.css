@@ -20,7 +20,7 @@ div.priv {
 	top: 3450px;
 
 	opacity: 0.4%;
-z-index: 120;
+z-index: -1;
 
 }
 
