@@ -206,7 +206,7 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
  
  
 .table2 #Picture {
-	 background-image: url(./StudyPictures/Informatiekunde.png);
+	 background-image: url(./StudyPictures/Informatiekunde.jpg);
 	 margin: 0;
 	 padding: 0;
  }
@@ -219,7 +219,7 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
  
  
  .table3 #Picture {
-	 background-image: url(./StudyPictures/Informatica.png);
+	 background-image: url(./StudyPictures/KunstmatigeIntelligentie.jpg);
 	 margin: 0;
 	 padding: 0;
  }
@@ -234,7 +234,7 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
 
  
  .table4 #Picture {
-	 background-image: url(./StudyPictures/Informatica.png);
+	 background-image: url(./StudyPictures/DataScience.jpg);
 	 margin: 0;
 	 padding: 0;
  }
@@ -246,7 +246,7 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
  
  
  .table5 #Picture {
-	 background-image: url(./StudyPictures/Informatica.png);
+	 background-image: url(./StudyPictures/Engineering.jpg);
 	 margin: 0;
 	 padding: 0;
  }
@@ -258,7 +258,7 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
  
  
  .table6 #Picture {
-	 background-image: url(./StudyPictures/Informatica.png);
+	 background-image: url(./StudyPictures/Architecture.jpg);
 	 margin: 0;
 	 padding: 0;
  }
@@ -270,7 +270,7 @@ li {    border-right: 1px solid #bbb;} li:last-child { border-right: none;}
  
  
  .table7 #Picture {
-	 background-image: url(./StudyPictures/Informatica.png);
+	 background-image: url(./StudyPictures/ICT.png);
 	 margin: 0;
 	 padding: 0;
  }
